@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "da-lern-place",
+  "description": "The new Coronado home page is best. You knows it.",
+  "version": "0.0.1",
+
+    "browser_action": {
+        "default_icon": "ico.png",
+        "default_popup": "extRedirect.html"
+    },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ]
+}
