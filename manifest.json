@@ -3,14 +3,18 @@
 
   "name": "da-lern-place",
   "description": "The new Coronado home page is best. You knows it.",
-  "version": "0.0.1",
+  "version": "0.0.2",
 
     "browser_action": {
-        "default_icon": "ico.png",
-        "default_popup": "extRedirect.html"
+        "default_icon": "ico.png"
     },
+
   "permissions": [
-    "activeTab",
-    "storage"
-  ]
+    "tabs"
+  ],
+
+  "background": {
+    "scripts": ["activate.js"],
+    "persistent": false
+  }
 }
